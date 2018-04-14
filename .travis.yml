@@ -1,0 +1,37 @@
+sudo: required
+
+services:
+  - docker
+
+language: node_js
+node_js:
+  - "node"
+
+script:
+  - npm install
+  - npm run build
+
+cache:
+  directories:
+    - "node_modules"
+
+after_script:
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then
+      docker build -t tedthedev/weather-app:latest .;
+      docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
+      docker push tedthedev/weather-app:latest;
+    fi
+  
+  - if [ "$TRAVIS_BRANCH" = "development" ]; then
+      docker build -t tedthedev/weather-app:dev .;
+      docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
+      docker push tedthedev/weather-app:dev;
+    fi
+
+  - if [ "$TRAVIS_BRANCH" = "development" ]; then
+      bash travis_scripts/deploy_heroku.sh development;
+    fi
+
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then
+      bash travis_scripts/deploy_heroku.sh production;
+    fi
