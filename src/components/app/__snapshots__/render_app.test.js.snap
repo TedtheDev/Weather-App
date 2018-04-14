@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<App /> should render correctly 1`] = `
-<div>
-  Hi from app
+<div
+  className="sc-bxivhb llhcYp"
+>
+  <div>
+    Hi from Header
+  </div>
 </div>
 `;

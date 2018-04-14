@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components';
 
 import SearchBar from '../SearchBar/search_bar';
+import Header from '../Header/header';
 
 const AppDiv = styled.div`
     width:  100%;
@@ -19,7 +20,7 @@ const App = props => {
     return (
         <Router>
             <AppDiv>
-                <div>Hi from app</div>
+                <Header />
                 <Switch>
                     <Route exact path="/" component={SearchBar} />
                 </Switch>
