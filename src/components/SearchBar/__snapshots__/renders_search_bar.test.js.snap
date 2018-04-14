@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar /> renders correctly 1`] = `
+<div
+  className="sc-bdVaJa kHNzv"
+>
+  <input
+    className="sc-bwzfXH hcmPLH"
+  />
+  <button
+    className="sc-htpNat gPdQJU"
+  >
+    Get Forecast
+  </button>
+</div>
+`;
