@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SearchBar /> renders correctly 1`] = `
+exports[`<SearchBarContainer /> renders correctly 1`] = `
 <div
   className="sc-bdVaJa iIMdXx"
 >
   <input
     className="sc-bwzfXH lmdjPo"
     onChange={[Function]}
-    value={undefined}
+    value=""
   />
   <button
     className="sc-htpNat gPdQJU"

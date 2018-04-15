@@ -2,13 +2,13 @@
 
 exports[`<ForecastContainer /> renders correctly 1`] = `
 <div
-  className="sc-bxivhb bxXzSD"
+  className="sc-EHOje KoAyV"
 >
   <div
-    className="sc-bdVaJa bqchxS"
+    className="sc-bdVaJa iIMdXx"
   >
     <input
-      className="sc-bwzfXH hcmPLH"
+      className="sc-bwzfXH lmdjPo"
       onChange={[Function]}
       value=""
     />
@@ -19,5 +19,8 @@ exports[`<ForecastContainer /> renders correctly 1`] = `
       Get Forecast
     </button>
   </div>
+  <div
+    className="sc-ifAKCX duUKVB"
+  />
 </div>
 `;

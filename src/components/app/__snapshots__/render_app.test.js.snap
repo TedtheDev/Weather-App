@@ -2,10 +2,12 @@
 
 exports[`<App /> should render correctly 1`] = `
 <div
-  className="sc-ifAKCX jFxfNV"
+  className="sc-gzVnrw dpDfps"
 >
-  <div>
-    Hi from Header
+  <div
+    className="sc-bdVaJa kUPtzM"
+  >
+    Five Day Forecast
   </div>
 </div>
 `;

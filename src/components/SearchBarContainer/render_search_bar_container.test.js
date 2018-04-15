@@ -1,12 +1,13 @@
 import React from 'react';
-import SearchBar from './search_bar';
+import SearchBarContainer from './search_bar_container';
 import renderer from 'react-test-renderer';
 
-describe('<SearchBar />', () => {
+describe('<SearchBarContainer />', () => {
     test('renders correctly', () => {
-        const component = renderer.create(<SearchBar onChangeCityName={jest.fn} getForecast={jest.fn} />);
+        const component = renderer.create(<SearchBarContainer getForecast={jest.fn} />);
 
         const tree = component.toJSON();
+
         expect(tree).toMatchSnapshot();
     });
 });

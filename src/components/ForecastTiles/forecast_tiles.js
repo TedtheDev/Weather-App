@@ -23,8 +23,6 @@ const ForecastTiles = props => {
         )
     }
     
-    console.log('tiles', props.data);
-    
     return (
         <ForecastTilesDiv>
             {renderTiles(props.data)}

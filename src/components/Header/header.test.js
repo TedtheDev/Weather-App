@@ -1,11 +1,10 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import Header from './header';
 
 describe('<Header />', () => {
-    test('should contain Hi from Header', () => {
-        const wrapper = shallow(<Header />);
-
-        expect(wrapper.find('div').text()).toBe('Hi from Header');
+    test('should contain Five Day Forecast', () => {
+        const wrapper = mount(<Header />);
+        expect(wrapper.find('div').text()).toBe('Five Day Forecast');
     });
 });

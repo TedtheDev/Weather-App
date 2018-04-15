@@ -2,11 +2,7 @@
 
 exports[`<ForecastTile /> renders correctly 1`] = `
 <div
-  style={
-    Object {
-      "border": "1px solid black",
-    }
-  }
+  className="sc-bdVaJa fEvWiI"
 >
   <div>
     Temp

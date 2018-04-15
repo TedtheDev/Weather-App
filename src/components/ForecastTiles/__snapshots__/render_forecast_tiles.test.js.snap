@@ -1,13 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ForecastTiles /> renders correctly 1`] = `
-Array [
+<div
+  className="sc-bwzfXH jYJRKU"
+>
   <div
-    style={
-      Object {
-        "border": "1px solid black",
-      }
-    }
+    className="sc-bdVaJa fEvWiI"
   >
     <div>
       Temp
@@ -40,13 +38,9 @@ Array [
       Night: 
       47.86
     </div>
-  </div>,
+  </div>
   <div
-    style={
-      Object {
-        "border": "1px solid black",
-      }
-    }
+    className="sc-bdVaJa fEvWiI"
   >
     <div>
       Temp
@@ -79,13 +73,9 @@ Array [
       Night: 
       50.68
     </div>
-  </div>,
+  </div>
   <div
-    style={
-      Object {
-        "border": "1px solid black",
-      }
-    }
+    className="sc-bdVaJa fEvWiI"
   >
     <div>
       Temp
@@ -118,13 +108,9 @@ Array [
       Night: 
       54.39
     </div>
-  </div>,
+  </div>
   <div
-    style={
-      Object {
-        "border": "1px solid black",
-      }
-    }
+    className="sc-bdVaJa fEvWiI"
   >
     <div>
       Temp
@@ -157,13 +143,9 @@ Array [
       Night: 
       44.96
     </div>
-  </div>,
+  </div>
   <div
-    style={
-      Object {
-        "border": "1px solid black",
-      }
-    }
+    className="sc-bdVaJa fEvWiI"
   >
     <div>
       Temp
@@ -196,6 +178,6 @@ Array [
       Night: 
       42.12
     </div>
-  </div>,
-]
+  </div>
+</div>
 `;

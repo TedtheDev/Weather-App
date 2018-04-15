@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Header /> should render correctly 1`] = `
-<div>
-  Hi from Header
+<div
+  className="sc-bdVaJa kUPtzM"
+>
+  Five Day Forecast
 </div>
 `;
