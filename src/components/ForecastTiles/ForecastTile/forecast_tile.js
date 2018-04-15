@@ -1,11 +1,19 @@
 import React from 'react';
 import PropTypes  from 'prop-types';
+import styled from 'styled-components';
+
+
+const Tile = styled.div`
+    border: 2px solid black;
+    margin: 2vh 2vw;
+    max-width: 250px;
+`;
 
 const ForecastTile = props => {
     const date = new Date(props.day.dt*1000).toString();
 
     return (
-        <div style={{border: "1px solid black"}}>
+        <Tile>
             <div>Temp</div>
             <div>Date: {date}</div>
             <div>Day: {props.day.temp.day}</div>
@@ -14,7 +22,7 @@ const ForecastTile = props => {
             <div>Min: {props.day.temp.min}</div>
             <div>Morning: {props.day.temp.morn}</div>
             <div>Night: {props.day.temp.night}</div>
-        </div>
+        </Tile>
     )
 };
 

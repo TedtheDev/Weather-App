@@ -16,6 +16,7 @@ const AppDiv = styled.div`
         "header header header"
         ". app ."
         "footer footer footer";
+    background: #e2edff;
 `;
 
 class App extends Component {

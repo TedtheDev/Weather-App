@@ -6,6 +6,8 @@ import ForecastTiles from '../ForecastTiles/forecast_tiles';
 
 const ForecastDiv = styled.div`
     grid-area: app;
+    display: grid;
+    grid-template: 5vh 80vh / auto; 
 `;
 
 class Forecast extends Component {

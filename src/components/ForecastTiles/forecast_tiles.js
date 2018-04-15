@@ -4,6 +4,14 @@ import PropTypes from 'prop-types';
 
 import ForecastTile from './ForecastTile/forecast_tile';
 
+const ForecastTilesDiv = styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+`;
+
 const renderTiles = (data) => {
     return data.map(day => <ForecastTile key={day.dt} day={day}/>);
 }
@@ -18,7 +26,9 @@ const ForecastTiles = props => {
     console.log('tiles', props.data);
     
     return (
-        renderTiles(props.data)
+        <ForecastTilesDiv>
+            {renderTiles(props.data)}
+        </ForecastTilesDiv>
     )
 };
 

@@ -4,11 +4,14 @@ import PropTypes from 'prop-types';
 
 
 const SearchBarDiv = styled.div`
-    
+    display: flex;
+    justify-content: space-around;
 `;
 
 const SearchInput = styled.input`
-
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
 `;
 
 const SearchButton = styled.button`
