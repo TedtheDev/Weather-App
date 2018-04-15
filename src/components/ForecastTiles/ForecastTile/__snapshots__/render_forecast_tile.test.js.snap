@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ForecastTile /> renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid black",
+    }
+  }
+>
+  <div>
+    Temp
+  </div>
+  <div>
+    Date: 
+    Sun Apr 15 2018 04:00:00 GMT-0500 (Central Daylight Time)
+  </div>
+  <div>
+    Day: 
+    55.4
+  </div>
+  <div>
+    Evening: 
+    55.4
+  </div>
+  <div>
+    Max: 
+    55.4
+  </div>
+  <div>
+    Min: 
+    47.86
+  </div>
+  <div>
+    Morning: 
+    55.4
+  </div>
+  <div>
+    Night: 
+    47.86
+  </div>
+</div>
+`;

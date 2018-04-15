@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ForecastTiles /> renders correctly 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "border": "1px solid black",
+      }
+    }
+  >
+    <div>
+      Temp
+    </div>
+    <div>
+      Date: 
+      Sun Apr 15 2018 04:00:00 GMT-0500 (Central Daylight Time)
+    </div>
+    <div>
+      Day: 
+      55.4
+    </div>
+    <div>
+      Evening: 
+      55.4
+    </div>
+    <div>
+      Max: 
+      55.4
+    </div>
+    <div>
+      Min: 
+      47.86
+    </div>
+    <div>
+      Morning: 
+      55.4
+    </div>
+    <div>
+      Night: 
+      47.86
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "border": "1px solid black",
+      }
+    }
+  >
+    <div>
+      Temp
+    </div>
+    <div>
+      Date: 
+      Mon Apr 16 2018 04:00:00 GMT-0500 (Central Daylight Time)
+    </div>
+    <div>
+      Day: 
+      59.58
+    </div>
+    <div>
+      Evening: 
+      59.65
+    </div>
+    <div>
+      Max: 
+      59.88
+    </div>
+    <div>
+      Min: 
+      45.43
+    </div>
+    <div>
+      Morning: 
+      45.43
+    </div>
+    <div>
+      Night: 
+      50.68
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "border": "1px solid black",
+      }
+    }
+  >
+    <div>
+      Temp
+    </div>
+    <div>
+      Date: 
+      Tue Apr 17 2018 04:00:00 GMT-0500 (Central Daylight Time)
+    </div>
+    <div>
+      Day: 
+      57.7
+    </div>
+    <div>
+      Evening: 
+      56.71
+    </div>
+    <div>
+      Max: 
+      57.7
+    </div>
+    <div>
+      Min: 
+      44.82
+    </div>
+    <div>
+      Morning: 
+      44.82
+    </div>
+    <div>
+      Night: 
+      54.39
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "border": "1px solid black",
+      }
+    }
+  >
+    <div>
+      Temp
+    </div>
+    <div>
+      Date: 
+      Wed Apr 18 2018 04:00:00 GMT-0500 (Central Daylight Time)
+    </div>
+    <div>
+      Day: 
+      48.18
+    </div>
+    <div>
+      Evening: 
+      47.73
+    </div>
+    <div>
+      Max: 
+      51.28
+    </div>
+    <div>
+      Min: 
+      44.96
+    </div>
+    <div>
+      Morning: 
+      51.28
+    </div>
+    <div>
+      Night: 
+      44.96
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "border": "1px solid black",
+      }
+    }
+  >
+    <div>
+      Temp
+    </div>
+    <div>
+      Date: 
+      Thu Apr 19 2018 04:00:00 GMT-0500 (Central Daylight Time)
+    </div>
+    <div>
+      Day: 
+      48.61
+    </div>
+    <div>
+      Evening: 
+      46.38
+    </div>
+    <div>
+      Max: 
+      48.61
+    </div>
+    <div>
+      Min: 
+      42.12
+    </div>
+    <div>
+      Morning: 
+      48.61
+    </div>
+    <div>
+      Night: 
+      42.12
+    </div>
+  </div>,
+]
+`;
