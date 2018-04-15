@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ForecastContainer /> renders correctly 1`] = `
+<div
+  className="sc-bxivhb bxXzSD"
+>
+  <div
+    className="sc-bdVaJa bqchxS"
+  >
+    <input
+      className="sc-bwzfXH hcmPLH"
+      onChange={[Function]}
+      value=""
+    />
+    <button
+      className="sc-htpNat gPdQJU"
+      onClick={[Function]}
+    >
+      Get Forecast
+    </button>
+  </div>
+</div>
+`;
