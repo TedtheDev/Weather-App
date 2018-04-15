@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
+import 'babel-polyfill';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components';
 
-import SearchBar from '../SearchBar/search_bar';
+
 import Header from '../Header/header';
+import ForecastContainer from '../ForecastContainer/forecast_container';
 
 const AppDiv = styled.div`
     width:  100%;
@@ -16,17 +18,31 @@ const AppDiv = styled.div`
         "footer footer footer";
 `;
 
-const App = props => {
-    return (
-        <Router>
-            <AppDiv>
-                <Header />
-                <Switch>
-                    <Route exact path="/" component={SearchBar} />
-                </Switch>
-            </AppDiv>
-        </Router>
-    );
+class App extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = { forecastData: {}}
+
+        this.updateForecastData = this.updateForecastData.bind(this);
+    }
+
+    updateForecastData(data) {
+        this.setState({ forecastData: data});
+    }
+
+    render() {
+        return (
+            <Router>
+                <AppDiv>
+                    <Header />
+                    <Switch>
+                        <Route exact path="/" render={() => <ForecastContainer />} />
+                    </Switch>
+                </AppDiv>
+            </Router>
+        );
+    }
 };
 
 export default App;
