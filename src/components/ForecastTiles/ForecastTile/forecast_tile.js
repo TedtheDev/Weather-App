@@ -10,7 +10,7 @@ const Tile = styled.div`
 `;
 
 const ForecastTile = props => {
-    const date = new Date(props.day.dt*1000).toString();
+    const date = new Date(Number(props.day.dt)*1000).toString();
 
     return (
         <Tile>
