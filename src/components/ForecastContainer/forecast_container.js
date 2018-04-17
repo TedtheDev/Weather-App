@@ -15,23 +15,28 @@ class Forecast extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { forecastData: {}, tilesLoading: false };
+        this.state = { forecastData: {}, tilesLoading: false, error: '' };
 
         this.getForecast = this.getForecast.bind(this);
     }
 
-    async getForecast(cityId) {
+    async getForecast(cityName) {
         this.setState({ tilesLoading: true })
         const API = OpenWeatherAPI;
-        const results = await API.fiveDayAverageCityId(cityId);
-        this.setState({forecastData: results, tilesLoading: false });
+        const results = await API.fiveDayAverageCityName(cityName);
+        if(results.cod !== '200') {
+            this.setState({ tilesLoading: false, error: results.message })
+        } else {
+            this.setState({ forecastData: results, tilesLoading: false, error: '' });
+        }
     }
 
     render() {
         return (
             <ForecastDiv>
                 <SearchBarContainer 
-                    getForecast={this.getForecast} 
+                    getForecast={this.getForecast}
+                    error={this.state.error}
                 />
                 <ForecastTiles 
                     loading={this.state.tilesLoading} 
