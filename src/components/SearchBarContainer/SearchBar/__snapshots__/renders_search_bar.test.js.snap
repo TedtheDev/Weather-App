@@ -2,15 +2,19 @@
 
 exports[`<SearchBar /> renders correctly 1`] = `
 <div
-  className="sc-bdVaJa iIMdXx"
+  className="sc-bdVaJa aBlhB"
 >
   <input
-    className="sc-bwzfXH lmdjPo"
+    className="sc-bwzfXH hMRMmP"
     onChange={[Function]}
+    placeholder="City Name"
     value={undefined}
   />
+  <div
+    className="sc-bxivhb cfEzOD"
+  />
   <button
-    className="sc-htpNat gPdQJU"
+    className="sc-htpNat bupPbj"
     onClick={[Function]}
   >
     Get Forecast

@@ -22,6 +22,7 @@ class SearchBarContainer extends Component {
                 getForecast={this.props.getForecast} 
                 onChangeCityName={this.onChangeCityName}
                 cityName={this.state.cityName}
+                error={this.props.error}
             />
         )
     }
