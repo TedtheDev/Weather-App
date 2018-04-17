@@ -12,6 +12,12 @@ const ForecastTilesDiv = styled.div`
     overflow-y: auto;
 `;
 
+const LoadingDiv = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
 const renderTiles = (data) => {
     return data.map(day => <ForecastTile key={day.dt} day={day}/>);
 }
@@ -19,7 +25,7 @@ const renderTiles = (data) => {
 const ForecastTiles = props => {
     if(props.loading) {
         return (
-            <div>Loading</div>
+            <LoadingDiv>Loading...</LoadingDiv>
         )
     }
     
