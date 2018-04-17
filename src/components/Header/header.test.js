@@ -5,6 +5,6 @@ import Header from './header';
 describe('<Header />', () => {
     test('should contain Five Day Forecast', () => {
         const wrapper = mount(<Header />);
-        expect(wrapper.find('div').text()).toBe('Five Day Forecast');
+        expect(wrapper.find('header').text()).toBe('Five Day Forecast');
     });
 });
