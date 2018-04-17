@@ -15,7 +15,14 @@ const OpenWeatherAPI  = {
             .then(data => {
                 return data.data;
             })
-            .catch(err => console.log(err))
+            .catch(err => err.response.data)
+    },
+    fiveDayAverageCityName(cityName='New York') {
+        return axios.get(`${API_URL}/forecast/daily?q=${cityName}&units=imperial&cnt=5&APPID=${key}`)
+            .then(data => {
+                return data.data;
+            })
+            .catch(err => err.response.data)
     }
 }
 
