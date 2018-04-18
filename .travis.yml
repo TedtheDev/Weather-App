@@ -1,37 +1,26 @@
 sudo: required
-
 services:
-  - docker
-
+- docker
 language: node_js
 node_js:
-  - "node"
-
+- node
 script:
-  - npm install
-  - npm run build
-
+- npm install
+- npm run build
 cache:
   directories:
-    - "node_modules"
-
+  - node_modules
 after_script:
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then
-      docker build -t tedthedev/weather-app:latest .;
-      docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
-      docker push tedthedev/weather-app:latest;
-    fi
-  
-  - if [ "$TRAVIS_BRANCH" = "development" ]; then
-      docker build -t tedthedev/weather-app:dev .;
-      docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
-      docker push tedthedev/weather-app:dev;
-    fi
-
-  - if [ "$TRAVIS_BRANCH" = "development" ]; then
-      bash travis_scripts/deploy_heroku.sh development;
-    fi
-
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then
-      bash travis_scripts/deploy_heroku.sh production;
-    fi
+- if [ "$TRAVIS_BRANCH" = "master" ]; then docker build -t tedthedev/weather-app:latest
+  .; docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"; docker push tedthedev/weather-app:latest;
+  fi
+- if [ "$TRAVIS_BRANCH" = "development" ]; then docker build -t tedthedev/weather-app:dev
+  .; docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"; docker push tedthedev/weather-app:dev;
+  fi
+- if [ "$TRAVIS_BRANCH" = "development" ]; then bash travis_scripts/deploy_heroku.sh
+  development; fi
+- if [ "$TRAVIS_BRANCH" = "master" ]; then bash travis_scripts/deploy_heroku.sh production;
+  fi
+env:
+  matrix:
+    secure: mDqYaCdWtzO2mT5tpxyrJzc9pFnqa7d5UldWZPdUzmVsCQji+fXhdIFg6Qp/8P+k5w+S7VElvVbNG8x/3VHDmyVpcHN37UQVJvMm6JSWNQtNBwZFTYw/6lqjcwgLjs+SeyEVVaPxQ33LisOhiQ2ETvRpTaulAQX6998vBUNij/yMK+Mdz2lVCB0Dxy8vccM3AVb1mevvwQhirWPkwEBAW+sBt+Na/IQ6BSHVlZ3YUilsaTql2khn6HGBp+LjCpXsrfFOV3RY0/a1TKaOBmd/dVatfyrVf+STdAANf3VlzXPuHtQG1VJXxUkx/sQh1xjCni0qRoSm3m2C8/5To/KUtZsKgFnGX5f9NzuGLBrICKsvFc5wHANRfkFSbNUsfrTTpNXHNsfI3FFtAtU30vibcEDJN4Y/9CapkJRsLKWIaHCiY4CzOHu6fc5GOn8oJrnlIP2W+5xNONehOjwLRE1ViSOcNdrEKTLuqt3oeTWt8UviYIF6SH35bClKiAP4IuXCuzS+BYGgArwKiS1P+05kuqBJad+v5ndV8EJv4CKm8trqYKpQLcoP1JtX7Rf7j4UwjInLILw95vnRH5TbcHP2//25whEQ1dUG/T8Yp4p/Wwcw/RaUoGIKQyLyCRnY8ImF/luyx0HwIK81bgK22YfQdlJHwJgZ4L4HGI9qjtayl3w=
