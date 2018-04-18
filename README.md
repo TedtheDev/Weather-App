@@ -75,3 +75,7 @@ I really enjoy CSS Grid and it is easy to create a layout rather than using floa
 
 ### Styled-Components vs CSS/SASS/LESS/CSS-In-JSS
 I chose styled-components for styling, because it keeps your css local to the component and you don't need to worry about specific class names. 
+
+## Would like to implement in the future
+- Route with parameters to bookmark a city, ex. www.weatherapp.com/weather/Chicago
+- More detailed data per city per day, more granular data, drill down data
