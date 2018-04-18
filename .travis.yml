@@ -11,10 +11,10 @@ cache:
   directories:
   - node_modules
 after_script:
-- if [ "$TRAVIS_BRANCH" = "master" ]; then docker build -t tedthedev/weather-app:latest
+- if [ "$TRAVIS_BRANCH" = "master" ]; then docker build -t --build-arg OPENWEATHERAPI_KEY="$OPENWEATHER_API_KEY" tedthedev/weather-app:latest
   .; docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"; docker push tedthedev/weather-app:latest;
   fi
-- if [ "$TRAVIS_BRANCH" = "development" ]; then docker build -t tedthedev/weather-app:dev
+- if [ "$TRAVIS_BRANCH" = "development" ]; then docker build -t ---build-arg OPENWEATHERAPI_KEY="$OPENWEATHER_API_KEY" tedthedev/weather-app:dev
   .; docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"; docker push tedthedev/weather-app:dev;
   fi
 - if [ "$TRAVIS_BRANCH" = "development" ]; then bash travis_scripts/deploy_heroku.sh
