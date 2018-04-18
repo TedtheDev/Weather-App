@@ -2,8 +2,10 @@ import axios from 'axios';
 
 let key;
 if(process.env.OPENWEATHERAPI_KEY) {
+    console.log('env var')
     key = process.env.OPENWEATHERAPI_KEY;
 } else {
+    console.log('not env var')
     key = require('../keys/openweather').key;
 }
 
