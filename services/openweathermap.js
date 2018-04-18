@@ -1,13 +1,6 @@
 import axios from 'axios';
 
-let key;
-if(process.env.OPENWEATHERAPI_KEY) {
-    console.log('env var')
-    key = process.env.OPENWEATHERAPI_KEY;
-} else {
-    console.log('not env var')
-    key = require('../keys/openweather').key;
-}
+let key = process.env.OPENWEATHERAPI_KEY;
 
 const API_URL = `https://api.openweathermap.org/data/2.5/`;
 
