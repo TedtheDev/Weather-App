@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 8888;
 
 app.get('/', (req,res) => {
-    res.sendFile(path.resolve(__dirname, 'dist/index.html'));
+    res.sendFile(path.resolve(__dirname, 'index.html'));
 });
 
 app.get('/bundle.js', (req,res) => {
