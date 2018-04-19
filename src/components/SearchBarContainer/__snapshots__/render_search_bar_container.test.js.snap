@@ -1,23 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SearchBarContainer /> renders correctly 1`] = `
-<div
+<form
   className="sc-bdVaJa aBlhB"
+  onSubmit={[Function]}
 >
   <input
     className="sc-bwzfXH fRghIM"
-    onChange={[Function]}
+    onChange={undefined}
     placeholder="City Name"
-    value=""
+    value={undefined}
   />
   <div
     className="sc-bxivhb cfEzOD"
   />
   <button
     className="sc-htpNat kmFOJE"
-    onClick={[Function]}
+    type="submit"
   >
     Get Forecast
   </button>
-</div>
+</form>
 `;

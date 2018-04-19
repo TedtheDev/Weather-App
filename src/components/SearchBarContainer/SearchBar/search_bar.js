@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 
-const SearchBarDiv = styled.div`
+const SearchBarDiv = styled.form`
     display: grid;
     grid-template: 80% 20% / 50% 50%;
     grid-template-areas: 
@@ -36,16 +36,14 @@ const Erorr = styled.div`
 
 const SearchBar = props => {    
     return (
-        <SearchBarDiv>
+        <SearchBarDiv onSubmit={props.getForecast}>
             <SearchInput
                 placeholder="City Name"
                 onChange={props.onChangeCityName} 
                 value={props.cityName}
             />
             <Erorr>{props.error}</Erorr>
-            <SearchButton 
-                onClick={() => props.getForecast(props.cityName)}
-            >
+            <SearchButton type="submit">
                 Get Forecast
             </SearchButton>
         </SearchBarDiv>

@@ -15,14 +15,21 @@ class Forecast extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { forecastData: {}, tilesLoading: false, error: '' };
+        this.state = { forecastData: {}, tilesLoading: false, error: '', cityName: '' };
 
         this.getForecast = this.getForecast.bind(this);
+        this.onChangeCityName = this.onChangeCityName.bind(this);
     }
 
-    async getForecast(cityName) {
+    onChangeCityName (event) {
+        this.setState({ cityName: event.target.value });
+    }
+
+    async getForecast(event) {
+        event.preventDefault();
         this.setState({ tilesLoading: true })
         const API = OpenWeatherAPI;
+        const cityName = this.state.cityName !== '' ? this.state.cityName : 'New York';
         const results = await API.fiveDayAverageCityName(cityName);
         if(results.cod !== '200') {
             this.setState({ tilesLoading: false, error: results.message })
@@ -37,6 +44,8 @@ class Forecast extends Component {
                 <SearchBarContainer 
                     getForecast={this.getForecast}
                     error={this.state.error}
+                    cityName={this.state.cityName}
+                    onChangeCityName={this.onChangeCityName}
                 />
                 <ForecastTiles 
                     loading={this.state.tilesLoading} 

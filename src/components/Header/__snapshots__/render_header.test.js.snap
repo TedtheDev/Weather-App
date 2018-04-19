@@ -2,7 +2,7 @@
 
 exports[`<Header /> should render correctly 1`] = `
 <header
-  className="sc-bdVaJa jYgsVD"
+  className="sc-bdVaJa fctiBP"
 >
   Five Day Forecast
 </header>

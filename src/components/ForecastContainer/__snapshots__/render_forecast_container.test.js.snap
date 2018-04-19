@@ -4,8 +4,9 @@ exports[`<ForecastContainer /> renders correctly 1`] = `
 <div
   className="sc-fjdhpX fseIWy"
 >
-  <div
+  <form
     className="sc-bdVaJa aBlhB"
+    onSubmit={[Function]}
   >
     <input
       className="sc-bwzfXH fRghIM"
@@ -20,13 +21,13 @@ exports[`<ForecastContainer /> renders correctly 1`] = `
     </div>
     <button
       className="sc-htpNat kmFOJE"
-      onClick={[Function]}
+      type="submit"
     >
       Get Forecast
     </button>
-  </div>
+  </form>
   <div
-    className="sc-VigVT eVbaOd"
+    className="sc-VigVT lovDyW"
   />
 </div>
 `;

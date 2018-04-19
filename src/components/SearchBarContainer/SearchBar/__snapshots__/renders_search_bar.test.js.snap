@@ -1,8 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SearchBar /> renders correctly 1`] = `
-<div
+<form
   className="sc-bdVaJa aBlhB"
+  onSubmit={[Function]}
 >
   <input
     className="sc-bwzfXH fRghIM"
@@ -15,9 +16,9 @@ exports[`<SearchBar /> renders correctly 1`] = `
   />
   <button
     className="sc-htpNat kmFOJE"
-    onClick={[Function]}
+    type="submit"
   >
     Get Forecast
   </button>
-</div>
+</form>
 `;

@@ -10,7 +10,6 @@ const ForecastTilesDiv = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: auto;
 `;
 
 const LoadingDiv = styled.div`

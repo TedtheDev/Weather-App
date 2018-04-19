@@ -18,6 +18,7 @@ const AppDiv = styled.div`
         ". app ."
         "footer footer footer";
         background: #F5F2DC;
+    overflow-y: auto;
 `;
 
 class App extends Component {
