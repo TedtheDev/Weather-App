@@ -60,6 +60,11 @@ const LineBreak = styled.div`
     }
 `;
 
+const WeatherIcon = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
 const ForecastTile = props => {
     let date = new Date(Number(props.day.dt)*1000);
     date = `${date.toLocaleString('en-us', { month: "long" })} ${date.getDate()}`;
@@ -78,11 +83,13 @@ const ForecastTile = props => {
         }
     ];
 
+    const iconpng = `http://openweathermap.org/img/w/${props.day.weather[0].icon}.png`
     return (
         <Tile>
             <DateDiv><strong>{date}</strong></DateDiv>
             <LineBreak></LineBreak>
             <Temp>Temp</Temp>
+            <WeatherIcon>{props.day.weather[0].main}<img src={iconpng}/></WeatherIcon>
             <LowHighDiv>
                 <div>Low: {Math.round(props.day.temp.min)} &deg;F</div>
                 <span>---</span>

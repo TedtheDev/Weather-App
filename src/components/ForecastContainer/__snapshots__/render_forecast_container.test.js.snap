@@ -2,7 +2,7 @@
 
 exports[`<ForecastContainer /> renders correctly 1`] = `
 <div
-  className="sc-jTzLTM cTPdSE"
+  className="sc-fjdhpX fseIWy"
 >
   <div
     className="sc-bdVaJa aBlhB"
@@ -26,7 +26,7 @@ exports[`<ForecastContainer /> renders correctly 1`] = `
     </button>
   </div>
   <div
-    className="sc-gqjmRU fHkmfa"
+    className="sc-VigVT eVbaOd"
   />
 </div>
 `;

@@ -2,7 +2,7 @@
 
 exports[`<ForecastTiles /> renders correctly 1`] = `
 <div
-  className="sc-htoDjs bGkQDw"
+  className="sc-dnqmqq brmpF"
 >
   <div
     className="sc-bdVaJa gIwNWG"
@@ -21,6 +21,14 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
       className="sc-htpNat kvXplu"
     >
       Temp
+    </div>
+    <div
+      className="sc-htoDjs fZompf"
+    >
+      Clouds
+      <img
+        src="http://openweathermap.org/img/w/02d.png"
+      />
     </div>
     <div
       className="sc-bxivhb YUhSB"
@@ -479,6 +487,14 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
       Temp
     </div>
     <div
+      className="sc-htoDjs fZompf"
+    >
+      Rain
+      <img
+        src="http://openweathermap.org/img/w/10d.png"
+      />
+    </div>
+    <div
       className="sc-bxivhb YUhSB"
     >
       <div>
@@ -933,6 +949,14 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
       className="sc-htpNat kvXplu"
     >
       Temp
+    </div>
+    <div
+      className="sc-htoDjs fZompf"
+    >
+      Rain
+      <img
+        src="http://openweathermap.org/img/w/10d.png"
+      />
     </div>
     <div
       className="sc-bxivhb YUhSB"
@@ -1391,6 +1415,14 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
       Temp
     </div>
     <div
+      className="sc-htoDjs fZompf"
+    >
+      Rain
+      <img
+        src="http://openweathermap.org/img/w/10d.png"
+      />
+    </div>
+    <div
       className="sc-bxivhb YUhSB"
     >
       <div>
@@ -1845,6 +1877,14 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
       className="sc-htpNat kvXplu"
     >
       Temp
+    </div>
+    <div
+      className="sc-htoDjs fZompf"
+    >
+      Rain
+      <img
+        src="http://openweathermap.org/img/w/10d.png"
+      />
     </div>
     <div
       className="sc-bxivhb YUhSB"

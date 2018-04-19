@@ -2,7 +2,7 @@ import axios from 'axios';
 
 let key = 'eb2567e4bd9009f1e02d04aaae18aefa';
 
-const API_URL = `https://api.openweathermap.org/data/2.5/`;
+const API_URL = `https://api.openweathermap.org/data/2.5`;
 
 const OpenWeatherAPI  = {
     fiveDayAverageCityId(cityId=524901) {

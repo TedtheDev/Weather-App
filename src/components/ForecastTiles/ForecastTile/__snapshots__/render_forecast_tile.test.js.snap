@@ -8,7 +8,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
     className="sc-bwzfXH cSAtHQ"
   >
     <strong>
-      April 15
+      April 19
     </strong>
   </div>
   <div
@@ -20,11 +20,19 @@ exports[`<ForecastTile /> renders correctly 1`] = `
     Temp
   </div>
   <div
+    className="sc-htoDjs fZompf"
+  >
+    Rain
+    <img
+      src="http://openweathermap.org/img/w/10d.png"
+    />
+  </div>
+  <div
     className="sc-bxivhb YUhSB"
   >
     <div>
       Low: 
-      48
+      42
        °F
     </div>
     <span>
@@ -32,7 +40,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
     </span>
     <div>
       High: 
-      55
+      49
        °F
     </div>
   </div>
@@ -46,28 +54,28 @@ exports[`<ForecastTile /> renders correctly 1`] = `
         className="sc-bZQynM ewEksc"
       >
         Day: 
-        55
+        49
          °F
       </div>
       <div
         className="sc-bZQynM jigHkO"
       >
         Evening: 
-        55
+        46
          °F
       </div>
       <div
         className="sc-bZQynM bOUmdM"
       >
         Morning: 
-        55
+        49
          °F
       </div>
       <div
         className="sc-bZQynM iQzgHi"
       >
         Night: 
-        48
+        42
          °F
       </div>
     </div>
@@ -445,7 +453,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
         <path
           className="recharts-curve recharts-line-curve"
           clipPath={null}
-          d="M65,9.600000000000001C82.22222222222221,9.600000000000001,99.44444444444444,9.600000000000001,116.66666666666666,9.600000000000001C133.88888888888889,9.600000000000001,151.1111111111111,9.600000000000001,168.33333333333331,9.600000000000001C185.55555555555554,9.600000000000001,202.77777777777777,13.370000000000001,220,17.14"
+          d="M65,16.39C82.22222222222221,16.39,99.44444444444444,16.39,116.66666666666666,16.39C133.88888888888889,16.39,151.1111111111111,17.53833333333333,168.33333333333331,18.619999999999997C185.55555555555554,19.701666666666664,202.77777777777777,21.29083333333333,220,22.880000000000003"
           fill="none"
           height={60}
           stroke="#FF5729"
