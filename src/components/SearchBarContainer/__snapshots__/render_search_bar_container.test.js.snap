@@ -5,7 +5,7 @@ exports[`<SearchBarContainer /> renders correctly 1`] = `
   className="sc-bdVaJa aBlhB"
 >
   <input
-    className="sc-bwzfXH hMRMmP"
+    className="sc-bwzfXH fRghIM"
     onChange={[Function]}
     placeholder="City Name"
     value=""
@@ -14,7 +14,7 @@ exports[`<SearchBarContainer /> renders correctly 1`] = `
     className="sc-bxivhb cfEzOD"
   />
   <button
-    className="sc-htpNat bupPbj"
+    className="sc-htpNat kmFOJE"
     onClick={[Function]}
   >
     Get Forecast

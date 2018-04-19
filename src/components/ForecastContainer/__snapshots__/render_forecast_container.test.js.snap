@@ -2,13 +2,13 @@
 
 exports[`<ForecastContainer /> renders correctly 1`] = `
 <div
-  className="sc-dnqmqq hgyJEZ"
+  className="sc-jTzLTM cTPdSE"
 >
   <div
     className="sc-bdVaJa aBlhB"
   >
     <input
-      className="sc-bwzfXH hMRMmP"
+      className="sc-bwzfXH fRghIM"
       onChange={[Function]}
       placeholder="City Name"
       value=""
@@ -19,14 +19,14 @@ exports[`<ForecastContainer /> renders correctly 1`] = `
       
     </div>
     <button
-      className="sc-htpNat bupPbj"
+      className="sc-htpNat kmFOJE"
       onClick={[Function]}
     >
       Get Forecast
     </button>
   </div>
   <div
-    className="sc-gzVnrw bwqzJf"
+    className="sc-gqjmRU fHkmfa"
   />
 </div>
 `;

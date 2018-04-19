@@ -2,50 +2,78 @@
 
 exports[`<ForecastTiles /> renders correctly 1`] = `
 <div
-  className="sc-bxivhb hoLrUk"
+  className="sc-htoDjs bGkQDw"
 >
   <div
     className="sc-bdVaJa gIwNWG"
   >
     <div
-      className="sc-bwzfXH NTieX"
+      className="sc-bwzfXH cSAtHQ"
     >
-      April 15
+      <strong>
+        April 15
+      </strong>
     </div>
     <div
-      className="sc-htpNat bfoGUd"
+      className="sc-gzVnrw dNPFMo"
+    />
+    <div
+      className="sc-htpNat kvXplu"
     >
       Temp
     </div>
-    <div>
-      Day: 
-      55
-       °F
+    <div
+      className="sc-bxivhb YUhSB"
+    >
+      <div>
+        Low: 
+        48
+         °F
+      </div>
+      <span>
+        ---
+      </span>
+      <div>
+        High: 
+        55
+         °F
+      </div>
     </div>
-    <div>
-      Evening: 
-      55
-       °F
-    </div>
-    <div>
-      Max: 
-      55
-       °F
-    </div>
-    <div>
-      Min: 
-      48
-       °F
-    </div>
-    <div>
-      Morning: 
-      55
-       °F
-    </div>
-    <div>
-      Night: 
-      48
-       °F
+    <div
+      className="sc-EHOje kGvQvF"
+    >
+      <div
+        className="sc-ifAKCX dUDvVJ"
+      >
+        <div
+          className="sc-bZQynM ewEksc"
+        >
+          Day: 
+          55
+           °F
+        </div>
+        <div
+          className="sc-bZQynM jigHkO"
+        >
+          Evening: 
+          55
+           °F
+        </div>
+        <div
+          className="sc-bZQynM bOUmdM"
+        >
+          Morning: 
+          55
+           °F
+        </div>
+        <div
+          className="sc-bZQynM iQzgHi"
+        >
+          Night: 
+          48
+           °F
+        </div>
+      </div>
     </div>
     <div
       className="recharts-wrapper"
@@ -54,7 +82,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           "cursor": "default",
           "height": 100,
           "position": "relative",
-          "width": 200,
+          "width": 225,
         }
       }
     >
@@ -63,8 +91,8 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
         height={100}
         style={undefined}
         version="1.1"
-        viewBox="0 0 200 100"
-        width={200}
+        viewBox="0 0 225 100"
+        width={225}
       >
         <g
           className="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
@@ -74,10 +102,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
             fill="none"
             height={30}
             stroke="#666"
-            width={130}
+            width={155}
             x={65}
             x1={65}
-            x2={195}
+            x2={220}
             y={65}
             y1={65}
             y2={65}
@@ -93,7 +121,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
                 x1={65}
                 x2={65}
@@ -107,7 +135,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
+                width={155}
                 x={65}
                 y={73}
               >
@@ -127,10 +155,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={108.33333333333334}
-                x2={108.33333333333334}
+                x1={116.66666666666666}
+                x2={116.66666666666666}
                 y={65}
                 y1={71}
                 y2={65}
@@ -141,13 +169,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={108.33333333333334}
+                width={155}
+                x={116.66666666666666}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={108.33333333333334}
+                  x={116.66666666666666}
                 >
                   Day
                 </tspan>
@@ -161,10 +189,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={151.66666666666669}
-                x2={151.66666666666669}
+                x1={168.33333333333331}
+                x2={168.33333333333331}
                 y={65}
                 y1={71}
                 y2={65}
@@ -175,13 +203,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={151.66666666666669}
+                width={155}
+                x={168.33333333333331}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={151.66666666666669}
+                  x={168.33333333333331}
                 >
                   Evening
                 </tspan>
@@ -195,10 +223,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={195}
-                x2={195}
+                x1={220}
+                x2={220}
                 y={65}
                 y1={71}
                 y2={65}
@@ -209,13 +237,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={195}
+                width={155}
+                x={220}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={195}
+                  x={220}
                 >
                   Night
                 </tspan>
@@ -420,13 +448,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           <path
             className="recharts-curve recharts-line-curve"
             clipPath={null}
-            d="M65,9.600000000000001C79.44444444444444,9.600000000000001,93.8888888888889,9.600000000000001,108.33333333333334,9.600000000000001C122.77777777777779,9.600000000000001,137.22222222222223,9.600000000000001,151.66666666666669,9.600000000000001C166.11111111111111,9.600000000000001,180.55555555555557,13.370000000000001,195,17.14"
+            d="M65,9.600000000000001C82.22222222222221,9.600000000000001,99.44444444444444,9.600000000000001,116.66666666666666,9.600000000000001C133.88888888888889,9.600000000000001,151.1111111111111,9.600000000000001,168.33333333333331,9.600000000000001C185.55555555555554,9.600000000000001,202.77777777777777,13.370000000000001,220,17.14"
             fill="none"
             height={60}
             stroke="#FF5729"
             strokeDasharray="0px 0px"
             strokeWidth={1}
-            width={130}
+            width={155}
           />
         </g>
       </svg>
@@ -436,44 +464,72 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
     className="sc-bdVaJa gIwNWG"
   >
     <div
-      className="sc-bwzfXH NTieX"
+      className="sc-bwzfXH cSAtHQ"
     >
-      April 16
+      <strong>
+        April 16
+      </strong>
     </div>
     <div
-      className="sc-htpNat bfoGUd"
+      className="sc-gzVnrw dNPFMo"
+    />
+    <div
+      className="sc-htpNat kvXplu"
     >
       Temp
     </div>
-    <div>
-      Day: 
-      60
-       °F
+    <div
+      className="sc-bxivhb YUhSB"
+    >
+      <div>
+        Low: 
+        45
+         °F
+      </div>
+      <span>
+        ---
+      </span>
+      <div>
+        High: 
+        60
+         °F
+      </div>
     </div>
-    <div>
-      Evening: 
-      60
-       °F
-    </div>
-    <div>
-      Max: 
-      60
-       °F
-    </div>
-    <div>
-      Min: 
-      45
-       °F
-    </div>
-    <div>
-      Morning: 
-      45
-       °F
-    </div>
-    <div>
-      Night: 
-      51
-       °F
+    <div
+      className="sc-EHOje kGvQvF"
+    >
+      <div
+        className="sc-ifAKCX dUDvVJ"
+      >
+        <div
+          className="sc-bZQynM ewEksc"
+        >
+          Day: 
+          60
+           °F
+        </div>
+        <div
+          className="sc-bZQynM jigHkO"
+        >
+          Evening: 
+          60
+           °F
+        </div>
+        <div
+          className="sc-bZQynM bOUmdM"
+        >
+          Morning: 
+          45
+           °F
+        </div>
+        <div
+          className="sc-bZQynM iQzgHi"
+        >
+          Night: 
+          51
+           °F
+        </div>
+      </div>
     </div>
     <div
       className="recharts-wrapper"
@@ -482,7 +538,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           "cursor": "default",
           "height": 100,
           "position": "relative",
-          "width": 200,
+          "width": 225,
         }
       }
     >
@@ -491,8 +547,8 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
         height={100}
         style={undefined}
         version="1.1"
-        viewBox="0 0 200 100"
-        width={200}
+        viewBox="0 0 225 100"
+        width={225}
       >
         <g
           className="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
@@ -502,10 +558,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
             fill="none"
             height={30}
             stroke="#666"
-            width={130}
+            width={155}
             x={65}
             x1={65}
-            x2={195}
+            x2={220}
             y={65}
             y1={65}
             y2={65}
@@ -521,7 +577,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
                 x1={65}
                 x2={65}
@@ -535,7 +591,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
+                width={155}
                 x={65}
                 y={73}
               >
@@ -555,10 +611,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={108.33333333333334}
-                x2={108.33333333333334}
+                x1={116.66666666666666}
+                x2={116.66666666666666}
                 y={65}
                 y1={71}
                 y2={65}
@@ -569,13 +625,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={108.33333333333334}
+                width={155}
+                x={116.66666666666666}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={108.33333333333334}
+                  x={116.66666666666666}
                 >
                   Day
                 </tspan>
@@ -589,10 +645,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={151.66666666666669}
-                x2={151.66666666666669}
+                x1={168.33333333333331}
+                x2={168.33333333333331}
                 y={65}
                 y1={71}
                 y2={65}
@@ -603,13 +659,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={151.66666666666669}
+                width={155}
+                x={168.33333333333331}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={151.66666666666669}
+                  x={168.33333333333331}
                 >
                   Evening
                 </tspan>
@@ -623,10 +679,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={195}
-                x2={195}
+                x1={220}
+                x2={220}
                 y={65}
                 y1={71}
                 y2={65}
@@ -637,13 +693,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={195}
+                width={155}
+                x={220}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={195}
+                  x={220}
                 >
                   Night
                 </tspan>
@@ -848,13 +904,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           <path
             className="recharts-curve recharts-line-curve"
             clipPath={null}
-            d="M65,19.57C79.44444444444444,12.518333333333334,93.8888888888889,5.466666666666669,108.33333333333334,5.420000000000002C122.77777777777779,5.373333333333335,137.22222222222223,5.350000000000001,151.66666666666669,5.350000000000001C166.11111111111111,5.350000000000001,180.55555555555557,9.835,195,14.32"
+            d="M65,19.57C82.22222222222221,12.518333333333334,99.44444444444444,5.466666666666669,116.66666666666666,5.420000000000002C133.88888888888889,5.373333333333335,151.1111111111111,5.350000000000001,168.33333333333331,5.350000000000001C185.55555555555554,5.350000000000001,202.77777777777777,9.835,220,14.32"
             fill="none"
             height={60}
             stroke="#FF5729"
             strokeDasharray="0px 0px"
             strokeWidth={1}
-            width={130}
+            width={155}
           />
         </g>
       </svg>
@@ -864,44 +920,72 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
     className="sc-bdVaJa gIwNWG"
   >
     <div
-      className="sc-bwzfXH NTieX"
+      className="sc-bwzfXH cSAtHQ"
     >
-      April 17
+      <strong>
+        April 17
+      </strong>
     </div>
     <div
-      className="sc-htpNat bfoGUd"
+      className="sc-gzVnrw dNPFMo"
+    />
+    <div
+      className="sc-htpNat kvXplu"
     >
       Temp
     </div>
-    <div>
-      Day: 
-      58
-       °F
+    <div
+      className="sc-bxivhb YUhSB"
+    >
+      <div>
+        Low: 
+        45
+         °F
+      </div>
+      <span>
+        ---
+      </span>
+      <div>
+        High: 
+        58
+         °F
+      </div>
     </div>
-    <div>
-      Evening: 
-      57
-       °F
-    </div>
-    <div>
-      Max: 
-      58
-       °F
-    </div>
-    <div>
-      Min: 
-      45
-       °F
-    </div>
-    <div>
-      Morning: 
-      45
-       °F
-    </div>
-    <div>
-      Night: 
-      54
-       °F
+    <div
+      className="sc-EHOje kGvQvF"
+    >
+      <div
+        className="sc-ifAKCX dUDvVJ"
+      >
+        <div
+          className="sc-bZQynM ewEksc"
+        >
+          Day: 
+          58
+           °F
+        </div>
+        <div
+          className="sc-bZQynM jigHkO"
+        >
+          Evening: 
+          57
+           °F
+        </div>
+        <div
+          className="sc-bZQynM bOUmdM"
+        >
+          Morning: 
+          45
+           °F
+        </div>
+        <div
+          className="sc-bZQynM iQzgHi"
+        >
+          Night: 
+          54
+           °F
+        </div>
+      </div>
     </div>
     <div
       className="recharts-wrapper"
@@ -910,7 +994,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           "cursor": "default",
           "height": 100,
           "position": "relative",
-          "width": 200,
+          "width": 225,
         }
       }
     >
@@ -919,8 +1003,8 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
         height={100}
         style={undefined}
         version="1.1"
-        viewBox="0 0 200 100"
-        width={200}
+        viewBox="0 0 225 100"
+        width={225}
       >
         <g
           className="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
@@ -930,10 +1014,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
             fill="none"
             height={30}
             stroke="#666"
-            width={130}
+            width={155}
             x={65}
             x1={65}
-            x2={195}
+            x2={220}
             y={65}
             y1={65}
             y2={65}
@@ -949,7 +1033,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
                 x1={65}
                 x2={65}
@@ -963,7 +1047,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
+                width={155}
                 x={65}
                 y={73}
               >
@@ -983,10 +1067,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={108.33333333333334}
-                x2={108.33333333333334}
+                x1={116.66666666666666}
+                x2={116.66666666666666}
                 y={65}
                 y1={71}
                 y2={65}
@@ -997,13 +1081,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={108.33333333333334}
+                width={155}
+                x={116.66666666666666}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={108.33333333333334}
+                  x={116.66666666666666}
                 >
                   Day
                 </tspan>
@@ -1017,10 +1101,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={151.66666666666669}
-                x2={151.66666666666669}
+                x1={168.33333333333331}
+                x2={168.33333333333331}
                 y={65}
                 y1={71}
                 y2={65}
@@ -1031,13 +1115,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={151.66666666666669}
+                width={155}
+                x={168.33333333333331}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={151.66666666666669}
+                  x={168.33333333333331}
                 >
                   Evening
                 </tspan>
@@ -1051,10 +1135,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={195}
-                x2={195}
+                x1={220}
+                x2={220}
                 y={65}
                 y1={71}
                 y2={65}
@@ -1065,13 +1149,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={195}
+                width={155}
+                x={220}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={195}
+                  x={220}
                 >
                   Night
                 </tspan>
@@ -1276,13 +1360,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           <path
             className="recharts-curve recharts-line-curve"
             clipPath={null}
-            d="M65,20.18C79.44444444444444,13.739999999999998,93.8888888888889,7.299999999999997,108.33333333333334,7.299999999999997C122.77777777777779,7.299999999999997,137.22222222222223,7.7383333333333315,151.66666666666669,8.29C166.11111111111111,8.841666666666667,180.55555555555557,9.725833333333332,195,10.61"
+            d="M65,20.18C82.22222222222221,13.739999999999998,99.44444444444444,7.299999999999997,116.66666666666666,7.299999999999997C133.88888888888889,7.299999999999997,151.1111111111111,7.738333333333332,168.33333333333331,8.29C185.55555555555554,8.841666666666667,202.77777777777777,9.725833333333332,220,10.61"
             fill="none"
             height={60}
             stroke="#FF5729"
             strokeDasharray="0px 0px"
             strokeWidth={1}
-            width={130}
+            width={155}
           />
         </g>
       </svg>
@@ -1292,44 +1376,72 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
     className="sc-bdVaJa gIwNWG"
   >
     <div
-      className="sc-bwzfXH NTieX"
+      className="sc-bwzfXH cSAtHQ"
     >
-      April 18
+      <strong>
+        April 18
+      </strong>
     </div>
     <div
-      className="sc-htpNat bfoGUd"
+      className="sc-gzVnrw dNPFMo"
+    />
+    <div
+      className="sc-htpNat kvXplu"
     >
       Temp
     </div>
-    <div>
-      Day: 
-      48
-       °F
+    <div
+      className="sc-bxivhb YUhSB"
+    >
+      <div>
+        Low: 
+        45
+         °F
+      </div>
+      <span>
+        ---
+      </span>
+      <div>
+        High: 
+        51
+         °F
+      </div>
     </div>
-    <div>
-      Evening: 
-      48
-       °F
-    </div>
-    <div>
-      Max: 
-      51
-       °F
-    </div>
-    <div>
-      Min: 
-      45
-       °F
-    </div>
-    <div>
-      Morning: 
-      51
-       °F
-    </div>
-    <div>
-      Night: 
-      45
-       °F
+    <div
+      className="sc-EHOje kGvQvF"
+    >
+      <div
+        className="sc-ifAKCX dUDvVJ"
+      >
+        <div
+          className="sc-bZQynM ewEksc"
+        >
+          Day: 
+          48
+           °F
+        </div>
+        <div
+          className="sc-bZQynM jigHkO"
+        >
+          Evening: 
+          48
+           °F
+        </div>
+        <div
+          className="sc-bZQynM bOUmdM"
+        >
+          Morning: 
+          51
+           °F
+        </div>
+        <div
+          className="sc-bZQynM iQzgHi"
+        >
+          Night: 
+          45
+           °F
+        </div>
+      </div>
     </div>
     <div
       className="recharts-wrapper"
@@ -1338,7 +1450,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           "cursor": "default",
           "height": 100,
           "position": "relative",
-          "width": 200,
+          "width": 225,
         }
       }
     >
@@ -1347,8 +1459,8 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
         height={100}
         style={undefined}
         version="1.1"
-        viewBox="0 0 200 100"
-        width={200}
+        viewBox="0 0 225 100"
+        width={225}
       >
         <g
           className="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
@@ -1358,10 +1470,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
             fill="none"
             height={30}
             stroke="#666"
-            width={130}
+            width={155}
             x={65}
             x1={65}
-            x2={195}
+            x2={220}
             y={65}
             y1={65}
             y2={65}
@@ -1377,7 +1489,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
                 x1={65}
                 x2={65}
@@ -1391,7 +1503,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
+                width={155}
                 x={65}
                 y={73}
               >
@@ -1411,10 +1523,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={108.33333333333334}
-                x2={108.33333333333334}
+                x1={116.66666666666666}
+                x2={116.66666666666666}
                 y={65}
                 y1={71}
                 y2={65}
@@ -1425,13 +1537,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={108.33333333333334}
+                width={155}
+                x={116.66666666666666}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={108.33333333333334}
+                  x={116.66666666666666}
                 >
                   Day
                 </tspan>
@@ -1445,10 +1557,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={151.66666666666669}
-                x2={151.66666666666669}
+                x1={168.33333333333331}
+                x2={168.33333333333331}
                 y={65}
                 y1={71}
                 y2={65}
@@ -1459,13 +1571,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={151.66666666666669}
+                width={155}
+                x={168.33333333333331}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={151.66666666666669}
+                  x={168.33333333333331}
                 >
                   Evening
                 </tspan>
@@ -1479,10 +1591,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={195}
-                x2={195}
+                x1={220}
+                x2={220}
                 y={65}
                 y1={71}
                 y2={65}
@@ -1493,13 +1605,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={195}
+                width={155}
+                x={220}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={195}
+                  x={220}
                 >
                   Night
                 </tspan>
@@ -1704,13 +1816,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           <path
             className="recharts-curve recharts-line-curve"
             clipPath={null}
-            d="M65,13.719999999999999C79.44444444444444,15.12,93.8888888888889,16.52,108.33333333333334,16.82C122.77777777777779,17.12,137.22222222222223,16.970000000000002,151.66666666666669,17.270000000000003C166.11111111111111,17.570000000000004,180.55555555555557,18.805000000000003,195,20.04"
+            d="M65,13.719999999999999C82.22222222222221,15.119999999999997,99.44444444444444,16.52,116.66666666666666,16.82C133.88888888888889,17.12,151.1111111111111,16.970000000000002,168.33333333333331,17.270000000000003C185.55555555555554,17.570000000000004,202.77777777777777,18.805000000000003,220,20.04"
             fill="none"
             height={60}
             stroke="#FF5729"
             strokeDasharray="0px 0px"
             strokeWidth={1}
-            width={130}
+            width={155}
           />
         </g>
       </svg>
@@ -1720,44 +1832,72 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
     className="sc-bdVaJa gIwNWG"
   >
     <div
-      className="sc-bwzfXH NTieX"
+      className="sc-bwzfXH cSAtHQ"
     >
-      April 19
+      <strong>
+        April 19
+      </strong>
     </div>
     <div
-      className="sc-htpNat bfoGUd"
+      className="sc-gzVnrw dNPFMo"
+    />
+    <div
+      className="sc-htpNat kvXplu"
     >
       Temp
     </div>
-    <div>
-      Day: 
-      49
-       °F
+    <div
+      className="sc-bxivhb YUhSB"
+    >
+      <div>
+        Low: 
+        42
+         °F
+      </div>
+      <span>
+        ---
+      </span>
+      <div>
+        High: 
+        49
+         °F
+      </div>
     </div>
-    <div>
-      Evening: 
-      46
-       °F
-    </div>
-    <div>
-      Max: 
-      49
-       °F
-    </div>
-    <div>
-      Min: 
-      42
-       °F
-    </div>
-    <div>
-      Morning: 
-      49
-       °F
-    </div>
-    <div>
-      Night: 
-      42
-       °F
+    <div
+      className="sc-EHOje kGvQvF"
+    >
+      <div
+        className="sc-ifAKCX dUDvVJ"
+      >
+        <div
+          className="sc-bZQynM ewEksc"
+        >
+          Day: 
+          49
+           °F
+        </div>
+        <div
+          className="sc-bZQynM jigHkO"
+        >
+          Evening: 
+          46
+           °F
+        </div>
+        <div
+          className="sc-bZQynM bOUmdM"
+        >
+          Morning: 
+          49
+           °F
+        </div>
+        <div
+          className="sc-bZQynM iQzgHi"
+        >
+          Night: 
+          42
+           °F
+        </div>
+      </div>
     </div>
     <div
       className="recharts-wrapper"
@@ -1766,7 +1906,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           "cursor": "default",
           "height": 100,
           "position": "relative",
-          "width": 200,
+          "width": 225,
         }
       }
     >
@@ -1775,8 +1915,8 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
         height={100}
         style={undefined}
         version="1.1"
-        viewBox="0 0 200 100"
-        width={200}
+        viewBox="0 0 225 100"
+        width={225}
       >
         <g
           className="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
@@ -1786,10 +1926,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
             fill="none"
             height={30}
             stroke="#666"
-            width={130}
+            width={155}
             x={65}
             x1={65}
-            x2={195}
+            x2={220}
             y={65}
             y1={65}
             y2={65}
@@ -1805,7 +1945,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
                 x1={65}
                 x2={65}
@@ -1819,7 +1959,7 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
+                width={155}
                 x={65}
                 y={73}
               >
@@ -1839,10 +1979,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={108.33333333333334}
-                x2={108.33333333333334}
+                x1={116.66666666666666}
+                x2={116.66666666666666}
                 y={65}
                 y1={71}
                 y2={65}
@@ -1853,13 +1993,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={108.33333333333334}
+                width={155}
+                x={116.66666666666666}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={108.33333333333334}
+                  x={116.66666666666666}
                 >
                   Day
                 </tspan>
@@ -1873,10 +2013,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={151.66666666666669}
-                x2={151.66666666666669}
+                x1={168.33333333333331}
+                x2={168.33333333333331}
                 y={65}
                 y1={71}
                 y2={65}
@@ -1887,13 +2027,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={151.66666666666669}
+                width={155}
+                x={168.33333333333331}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={151.66666666666669}
+                  x={168.33333333333331}
                 >
                   Evening
                 </tspan>
@@ -1907,10 +2047,10 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 fill="none"
                 height={30}
                 stroke="#666"
-                width={130}
+                width={155}
                 x={65}
-                x1={195}
-                x2={195}
+                x1={220}
+                x2={220}
                 y={65}
                 y1={71}
                 y2={65}
@@ -1921,13 +2061,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
                 height={30}
                 stroke="none"
                 textAnchor="middle"
-                width={130}
-                x={195}
+                width={155}
+                x={220}
                 y={73}
               >
                 <tspan
                   dy="0.71em"
-                  x={195}
+                  x={220}
                 >
                   Night
                 </tspan>
@@ -2132,13 +2272,13 @@ exports[`<ForecastTiles /> renders correctly 1`] = `
           <path
             className="recharts-curve recharts-line-curve"
             clipPath={null}
-            d="M65,16.39C79.44444444444444,16.39,93.8888888888889,16.39,108.33333333333334,16.39C122.77777777777779,16.39,137.22222222222223,17.53833333333333,151.66666666666669,18.619999999999997C166.11111111111111,19.701666666666664,180.55555555555557,21.29083333333333,195,22.880000000000003"
+            d="M65,16.39C82.22222222222221,16.39,99.44444444444444,16.39,116.66666666666666,16.39C133.88888888888889,16.39,151.1111111111111,17.53833333333333,168.33333333333331,18.619999999999997C185.55555555555554,19.701666666666664,202.77777777777777,21.29083333333333,220,22.880000000000003"
             fill="none"
             height={60}
             stroke="#FF5729"
             strokeDasharray="0px 0px"
             strokeWidth={1}
-            width={130}
+            width={155}
           />
         </g>
       </svg>

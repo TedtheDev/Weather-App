@@ -13,13 +13,51 @@ const Tile = styled.div`
 `;
 
 const DateDiv = styled.div`
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
 `;
 
 const Temp = styled.div`
+    font-size: 1rem;
     display: flex;
     justify-content: center;
+`;
+
+const LowHighDiv = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
+const TimeTempDiv = styled.div`
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+    grid-template-areas:
+        "morning day"
+        "evening night";
+    grid-column-gap: 10%;
+`;
+
+const TimeWrapperDiv = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
+const TimeDiv = styled.div`
+    grid-area: ${props => props.area};
+`;
+
+const LineBreak = styled.div`
+    position: relative;
+    &::after {
+        content: '';
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        background: black;
+    }
 `;
 
 const ForecastTile = props => {
@@ -42,15 +80,23 @@ const ForecastTile = props => {
 
     return (
         <Tile>
-            <DateDiv>{date}</DateDiv>
+            <DateDiv><strong>{date}</strong></DateDiv>
+            <LineBreak></LineBreak>
             <Temp>Temp</Temp>
-            <div>Day: {Math.round(props.day.temp.day)} &deg;F</div>
-            <div>Evening: {Math.round(props.day.temp.eve)} &deg;F</div>
-            <div>Max: {Math.round(props.day.temp.max)} &deg;F</div>
-            <div>Min: {Math.round(props.day.temp.min)} &deg;F</div>
-            <div>Morning: {Math.round(props.day.temp.morn)} &deg;F</div>
-            <div>Night: {Math.round(props.day.temp.night)} &deg;F</div>
-            <LineChart width={200} height={100} data={temperatureData}>
+            <LowHighDiv>
+                <div>Low: {Math.round(props.day.temp.min)} &deg;F</div>
+                <span>---</span>
+                <div>High: {Math.round(props.day.temp.max)} &deg;F</div>
+            </LowHighDiv>
+            <TimeWrapperDiv>
+                <TimeTempDiv>
+                    <TimeDiv area="day" >Day: {Math.round(props.day.temp.day)} &deg;F</TimeDiv>
+                    <TimeDiv area="evening" >Evening: {Math.round(props.day.temp.eve)} &deg;F</TimeDiv>
+                    <TimeDiv area="morning" >Morning: {Math.round(props.day.temp.morn)} &deg;F</TimeDiv>
+                    <TimeDiv area="night" >Night: {Math.round(props.day.temp.night)} &deg;F</TimeDiv>
+                </TimeTempDiv>
+            </TimeWrapperDiv>
+            <LineChart width={225} height={100} data={temperatureData}>
                 <XAxis dataKey='name' />
                 <YAxis/>
                 <Line type="monotone" dataKey="temp" stroke="#FF5729"/>

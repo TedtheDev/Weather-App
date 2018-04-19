@@ -16,9 +16,12 @@ const SearchInput = styled.input`
     border: none;
     background: none;
     border-bottom: 1px solid black;
+    color: #00585E;
+    font-size: 1rem;
 `;
 
 const SearchButton = styled.button`
+    cursor: pointer;
     grid-area: searchButton;
     border-radius: 5px;
     border: none;
