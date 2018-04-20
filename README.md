@@ -4,8 +4,10 @@ Your ordinary weather app that lets you type in a city to be able to get the nex
 
 ## How to install the app
 - *What you need before installing*
-⋅⋅⋅ Node.js
-⋅⋅⋅ npm or yarn
+1. Node.js
+2. npm or yarn
+
+
 1. Clone the project to a directory
 2. ```git clone https://github/TedtheDev/Weather-App.git```
 3. ```cd Weather-App```
