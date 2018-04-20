@@ -70,7 +70,7 @@ This area is something I wanted to improve on. I wanted to think more about comp
 What I have read from articles and believe is good practice is to have at least one snapshot test per component, but some components also have more testing. Enzyme is great to use to be able to check dom elements and simulate events.
 
 ### Color Scheme
-I originally tried to pick a blue color, because blue is normally associated with weather, the sky, clouds, etc, but I couldn't find colors that went together with a color wheel. I found Adobe's color website and found a popular color scheme, which I thought had some nice appealing, unique colors. I chose to have a lighter color as the main background because it is easier on the eyes and I think it is easier to read dark text on a lighter background.
+I originally tried to pick a blue color, because blue is normally associated with weather, the sky, clouds, etc, but I couldn't find colors that went together with a color wheel. I found Adobe's color website and found a well liked [color scheme](https://color.adobe.com/Copy-of-Cote-Azur-gray-color-theme-10635149/?showPublished=true), which I thought had some nice appealing, unique colors. I chose to have a lighter color as the main background because it is easier on the eyes and I think it is easier to read dark text on a lighter background.
 
 ### Layout and Styling
 I am using CSS Grid, because it is easy to create a layout in CSS vs Bootstrap and a grid system. Most modern browsers support CSS Grid now. CSS Grid was adopted very quickly, but backwards compatibility will need to have a polyfill.
@@ -93,12 +93,16 @@ I really enjoy CSS Grid. It is easy to create a layout rather than using floats,
 ### Styled-Components vs CSS/SASS/LESS/CSS-In-JSS
 I chose styled-components for styling, because it keeps your CSS local to the component and you don't need to worry about specific class names cluttering up the space like Primary_Button_1, Primary_Button_2, where you might have to with just basic CSS or a pre-processor. Using styled-components though does introduce a bigger JS bundle and more React components
 
+### CSS Framework like Bootstrap or SemanticUI
+I chose not to use a CSS Framework because I thought I wouldn't need one with just a couple of components and I wanted to challenge myself with standard CSS. I think maybe using a CSS Framework (for the visuals, not a grid) would help make the app look a bit more professional such as having a nice button or animated input with onBlur, onFocus, nice error box, etc.
+
 ## Would like to implement in the future
 ### Features
 - Route with parameters to bookmark a city, ex. www.weatherapp.com/weather/Chicago or www.weatherapp.com/Chicago
 - More detailed data per day, more granular data, drill down data, where you click on a show more and a modal or slider shows up with more about the weather
 - City Name on top of the forecast tiles to remind you which city's weather data you are looking at
-- A nicer loading animation
+- Some little animations here and there with keyframes or transitions
+- I would like to work on the CSS to make it look more professional
 ### Tech Debt
 - I would like to break up some components more. For example, My SearchBar is very coupled with the input and the Button. Another example is the ForecastTile. I would like to break out some individual parts like the Rechart. I can make it its own component, but was running out of time.
 - Perhaps, I have too many moving parts like Docker, TravisCI, and deploying automatically to Heroku, just for a small App, but I feel it is set up in a good way to practice good development and be able to add more features with confidence.
@@ -106,3 +110,4 @@ I chose styled-components for styling, because it keeps your CSS local to the co
 - I would like to fix some layout issues that I am having with the Header and Footer being fixed along with the ForecastTiles when on a smaller screen. I think I have issues with using percentages with Grid so I would need more time with debugging that
 - I would like to fix the ForecastTile layout. I believe I could make it more appealing and a better layout
 - Try and cancel the API Key to OpenWeather. I did try to work on this and almost had it, but had issues with passing the API key when building the Docker image and running it. It would pass through, but somehow node inside the Docker container wouldn't set the process.env variable, but it existed in the environment.
+- I would like to add more tests. I recently started exploring Enzyme, so I thought this would be another opportunity to explore Enzyme, but I think I could add more to test components behavior rather than what they render snapshots

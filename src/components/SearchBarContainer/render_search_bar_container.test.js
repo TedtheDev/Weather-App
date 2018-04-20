@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 describe('<SearchBarContainer />', () => {
     test('renders correctly', () => {
-        const component = renderer.create(<SearchBarContainer getForecast={jest.fn} />);
+        const component = renderer.create(<SearchBarContainer getForecast={jest.fn} onChangeCityName={jest.fn}/>);
 
         const tree = component.toJSON();
 

@@ -7,7 +7,7 @@ exports[`<SearchBarContainer /> renders correctly 1`] = `
 >
   <input
     className="sc-bwzfXH khaJxb"
-    onChange={undefined}
+    onChange={[Function]}
     placeholder="City Name"
     value={undefined}
   />

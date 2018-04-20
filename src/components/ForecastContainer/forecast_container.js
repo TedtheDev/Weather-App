@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import OpenWeatherAPI from '../../../services/openweathermap';
+import OpenWeatherAPI from '../../services/openweathermap';
 import SearchBarContainer from '../SearchBarContainer/search_bar_container';
 import ForecastTiles from '../ForecastTiles/forecast_tiles';
 
