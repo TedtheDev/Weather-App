@@ -2,22 +2,22 @@
 
 Your ordinary weather app that lets you type in a city to be able to get the next 5 days of weather data (only Average Temperature for now)
 
-## How to install app
-- Clone the project to a directory
-- ```git clone https://github/TedtheDev/Weather-App.git```
-- ```cd Weather-App```
-- ```npm install```
+## How to install the app
+1. Clone the project to a directory
+2. ```git clone https://github/TedtheDev/Weather-App.git```
+3. ```cd Weather-App```
+4. ```npm install```
 
 ## Run in your local environment
-- ```npm run serve:dev```
-This will run a local Express server with the development mode with Webpack
-- Navigate to localhost:8080 in your browser
+1. ```npm run serve:dev```
+This will run a local Express server in development mode in Webpack
+2. Navigate to localhost:8080 in your browser
 
-## Test
+## Test Commands
 - ```npm run test```
 - To watch run ```npm run test:watch```
 
-## Build the bundle
+## Build Commands
 - Test and Build with ```npm run build```
 - Build for Dev with ```npm run build:dev```
 - Build for Prod with ```npm run build:prod```
@@ -30,7 +30,7 @@ When developing this app, I was trying to think of a minimalistic way to be able
 The first thing I thought about was using TravisCI to have a continuous integration platform to run tests in a sandbox environment and deploy to a host. I am also using a Dockerfile to be able to build a Docker image so it can deploy a Docker container very easily. I also have two images (dev and latest) being pushed to DockerHub.
 
 ### Host
-I love using Heroku and it is free, so I am hosting two instances of my application on Heroku. I have a [dev](https://weather-app-dev.herokuapp.com/) environment and a [prod](https://your-weather-forecast.herokuapp.com/) environment. 
+I love using Heroku and it is free, so I am hosting two instances of my application on Heroku. I have a [dev - https://weather-app-dev.herokuapp.com/](https://weather-app-dev.herokuapp.com/) environment and a [prod - https://your-weather-forecast.herokuapp.com/](https://your-weather-forecast.herokuapp.com/) environment. 
 
 ### Branching Strategy
 I prefer the Gitflow Workflow branching strategy. I have two main branches. One is master (represents production code) and one is development (represents development code). I believe this strategy is very good for knowing which code is in production and development. I am the only collaborator so far, so I don't have any PR's against the development branch. If there were more collaborators, I would choose to have PR's be submitted against the development branch with other collaborators' forked/cloned feature branches. 
