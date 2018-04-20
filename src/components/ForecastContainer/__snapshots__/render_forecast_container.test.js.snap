@@ -2,10 +2,10 @@
 
 exports[`<ForecastContainer /> renders correctly 1`] = `
 <main
-  className="sc-fjdhpX gdLoEs"
+  className="sc-jTzLTM iKWnxW"
 >
   <form
-    className="sc-bdVaJa gcfdVH"
+    className="sc-bdVaJa fAOpag"
     onSubmit={[Function]}
   >
     <input
@@ -27,7 +27,7 @@ exports[`<ForecastContainer /> renders correctly 1`] = `
     </button>
   </form>
   <div
-    className="sc-VigVT kixuLi"
+    className="sc-gqjmRU gwnQXq"
   />
 </main>
 `;

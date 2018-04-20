@@ -2,7 +2,7 @@
 
 exports[`<SearchBarContainer /> renders correctly 1`] = `
 <form
-  className="sc-bdVaJa gcfdVH"
+  className="sc-bdVaJa fAOpag"
   onSubmit={[Function]}
 >
   <input

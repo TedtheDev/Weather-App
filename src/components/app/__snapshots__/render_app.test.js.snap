@@ -2,7 +2,7 @@
 
 exports[`<App /> should render correctly 1`] = `
 <div
-  className="sc-kAzzGY cBYWmy"
+  className="sc-cSHVUG krhfTn"
 >
   <header
     className="sc-bdVaJa jYgsVD"
@@ -10,7 +10,7 @@ exports[`<App /> should render correctly 1`] = `
     Five Day Forecast
   </header>
   <footer
-    className="sc-cSHVUG dYawBu"
+    className="sc-jzJRlG eCmeVz"
   />
 </div>
 `;

@@ -12,15 +12,10 @@ exports[`<ForecastTile /> renders correctly 1`] = `
     </strong>
   </div>
   <div
-    className="sc-gzVnrw dNPFMo"
+    className="sc-bZQynM cosIR"
   />
   <div
-    className="sc-htpNat kvXplu"
-  >
-    Temp
-  </div>
-  <div
-    className="sc-htoDjs fZompf"
+    className="sc-gzVnrw ktGRzr"
   >
     Rain
     <img
@@ -28,7 +23,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
     />
   </div>
   <div
-    className="sc-bxivhb YUhSB"
+    className="sc-htpNat bfoGUd"
   >
     <div>
       Low: 
@@ -45,34 +40,34 @@ exports[`<ForecastTile /> renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-EHOje kGvQvF"
+    className="sc-ifAKCX jDWRrf"
   >
     <div
-      className="sc-ifAKCX dUDvVJ"
+      className="sc-bxivhb jyTOvn"
     >
       <div
-        className="sc-bZQynM ewEksc"
+        className="sc-EHOje fLgWZk"
       >
         Day: 
         49
          °F
       </div>
       <div
-        className="sc-bZQynM jigHkO"
+        className="sc-EHOje hZcYEO"
       >
         Evening: 
         46
          °F
       </div>
       <div
-        className="sc-bZQynM bOUmdM"
+        className="sc-EHOje iufOAP"
       >
         Morning: 
         49
          °F
       </div>
       <div
-        className="sc-bZQynM iQzgHi"
+        className="sc-EHOje kEdxwM"
       >
         Night: 
         42
