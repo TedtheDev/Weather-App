@@ -19,12 +19,6 @@ const DateDiv = styled.div`
     justify-content: center;
 `;
 
-const Temp = styled.div`
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-`;
-
 const LowHighDiv = styled.div`
     display: flex;
     justify-content: center;
@@ -64,6 +58,7 @@ const LineBreak = styled.div`
 const WeatherIcon = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
 `;
 
 const ForecastTile = props => {
@@ -89,7 +84,6 @@ const ForecastTile = props => {
         <Tile>
             <DateDiv><strong>{date}</strong></DateDiv>
             <LineBreak></LineBreak>
-            <Temp>Temp</Temp>
             <WeatherIcon>{props.day.weather[0].main}<img src={iconpng}/></WeatherIcon>
             <LowHighDiv>
                 <div>Low: {Math.round(props.day.temp.min)} &deg;F</div>

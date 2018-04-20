@@ -13,7 +13,7 @@ const SearchBarForm = styled.form`
     width: 100%;
     height: 100%;
     position: sticky;
-    top: 1%;
+    top: 0;
     z-index: 10;
     background: #F5F2DC;
 `;
