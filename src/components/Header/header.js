@@ -10,11 +10,6 @@ const HeaderDiv = styled.header`
     background: #009494;
     color: #F5F2DC;
     box-shadow: 0 0 2px #000;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 10%;
 `;
 
 const Header = props => {

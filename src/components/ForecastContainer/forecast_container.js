@@ -4,10 +4,15 @@ import OpenWeatherAPI from '../../../services/openweathermap';
 import SearchBarContainer from '../SearchBarContainer/search_bar_container';
 import ForecastTiles from '../ForecastTiles/forecast_tiles';
 
-const ForecastDiv = styled.div`
+const ForecastMain = styled.main`
     grid-area: app;
     display: grid;
-    grid-template: 5vh 80vh / auto; 
+    grid-template: minmax(auto, 75px) 80% / auto;
+    grid-template-areas:
+        "search"
+        "temps";
+    width: 100%;
+    height: 100%;
 `;
 
 class Forecast extends Component {
@@ -32,7 +37,14 @@ class Forecast extends Component {
         const cityName = this.state.cityName !== '' ? this.state.cityName : 'New York';
         const results = await API.fiveDayAverageCityName(cityName);
         if(results.cod !== '200') {
-            this.setState({ tilesLoading: false, error: results.message })
+            let error = '';
+            if(results.message !== 'city not found') {
+                console.log(results.message);
+                error = 'OOPS. Something went wrong';
+            } else {
+                error = 'City Not Found';
+            }
+            this.setState({ tilesLoading: false, error: error, forecastData: {} })
         } else {
             this.setState({ forecastData: results, tilesLoading: false, error: '' });
         }
@@ -40,18 +52,18 @@ class Forecast extends Component {
 
     render() {
         return (
-            <ForecastDiv>
+            <ForecastMain>
                 <SearchBarContainer 
                     getForecast={this.getForecast}
                     error={this.state.error}
                     cityName={this.state.cityName}
                     onChangeCityName={this.onChangeCityName}
                 />
-                <ForecastTiles 
+                <ForecastTiles
                     loading={this.state.tilesLoading} 
                     data={this.state.forecastData.list || []}
                 />
-            </ForecastDiv>
+            </ForecastMain>
         )
     }
 };

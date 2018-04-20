@@ -10,6 +10,7 @@ const Tile = styled.div`
     box-shadow: 1px 1px 5px #454445;
     margin: 2vh 2vw;
     min-width: 250px;
+    color: #454445;
 `;
 
 const DateDiv = styled.div`
@@ -104,8 +105,8 @@ const ForecastTile = props => {
                 </TimeTempDiv>
             </TimeWrapperDiv>
             <LineChart width={225} height={100} data={temperatureData}>
-                <XAxis dataKey='name' />
-                <YAxis/>
+                <XAxis dataKey='name' stroke="#454445"/>
+                <YAxis stroke="#454445"/>
                 <Line type="monotone" dataKey="temp" stroke="#FF5729"/>
             </LineChart>
         </Tile>

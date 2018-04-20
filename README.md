@@ -66,16 +66,17 @@ Redux is a good library, but isn't needed when you can just use React state. I f
 
 ### React vs Angular vs jQuery etc
 
-
 ### Jest vs Mocha
 I chose Jest because I have recently been using it more, but it is easy to set up right out of the box and it has the snapshot functionality out of the box.
 
 ### CSS Grid
-I really enjoy CSS Grid and it is easy to create a layout rather than using floats, grid system, bootstrap, table layout, etc. One thing that is a con of CSS Grid is that it is more of a newer standard so older browsers will not be able to see the layout so I would need to implement a polyfill
+I really enjoy CSS Grid. It is easy to create a layout rather than using floats, grid system, bootstrap, table layout, etc. One thing that is a con of CSS Grid is that it is more of a newer standard so older browsers will not be able to see the layout so I would need to implement a polyfill
 
 ### Styled-Components vs CSS/SASS/LESS/CSS-In-JSS
-I chose styled-components for styling, because it keeps your css local to the component and you don't need to worry about specific class names. 
+I chose styled-components for styling, because it keeps your css local to the component and you don't need to worry about specific class names cluttering up the space like Primary_Button_1, Primary_Button_2
 
 ## Would like to implement in the future
-- Route with parameters to bookmark a city, ex. www.weatherapp.com/weather/Chicago
-- More detailed data per city per day, more granular data, drill down data
+- Route with parameters to bookmark a city, ex. www.weatherapp.com/weather/Chicago or www.weatherapp.com/Chicago
+- More detailed data per day, more granular data, drill down data, where you click on a show more and a modal or slider shows up with more about the weather
+- City Name on top of the forecast tiles to remind you which city's weather data you are looking at
+- A nicer loading animation

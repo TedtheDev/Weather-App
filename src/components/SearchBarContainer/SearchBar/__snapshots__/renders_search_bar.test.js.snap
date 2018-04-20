@@ -2,11 +2,11 @@
 
 exports[`<SearchBar /> renders correctly 1`] = `
 <form
-  className="sc-bdVaJa aBlhB"
+  className="sc-bdVaJa gcfdVH"
   onSubmit={[Function]}
 >
   <input
-    className="sc-bwzfXH fRghIM"
+    className="sc-bwzfXH khaJxb"
     onChange={[Function]}
     placeholder="City Name"
     value={undefined}
@@ -15,7 +15,7 @@ exports[`<SearchBar /> renders correctly 1`] = `
     className="sc-bxivhb cfEzOD"
   />
   <button
-    className="sc-htpNat kmFOJE"
+    className="sc-htpNat dkRZgH"
     type="submit"
   >
     Get Forecast

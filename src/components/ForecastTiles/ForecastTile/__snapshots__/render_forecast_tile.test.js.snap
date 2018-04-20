@@ -2,7 +2,7 @@
 
 exports[`<ForecastTile /> renders correctly 1`] = `
 <div
-  className="sc-bdVaJa gIwNWG"
+  className="sc-bdVaJa cCgVUG"
 >
   <div
     className="sc-bwzfXH cSAtHQ"
@@ -106,7 +106,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
           className="recharts-cartesian-axis-line"
           fill="none"
           height={30}
-          stroke="#666"
+          stroke="#454445"
           width={155}
           x={65}
           x1={65}
@@ -125,7 +125,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={30}
-              stroke="#666"
+              stroke="#454445"
               width={155}
               x={65}
               x1={65}
@@ -136,7 +136,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={30}
               stroke="none"
               textAnchor="middle"
@@ -159,7 +159,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={30}
-              stroke="#666"
+              stroke="#454445"
               width={155}
               x={65}
               x1={116.66666666666666}
@@ -170,7 +170,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={30}
               stroke="none"
               textAnchor="middle"
@@ -193,7 +193,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={30}
-              stroke="#666"
+              stroke="#454445"
               width={155}
               x={65}
               x1={168.33333333333331}
@@ -204,7 +204,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={30}
               stroke="none"
               textAnchor="middle"
@@ -227,7 +227,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={30}
-              stroke="#666"
+              stroke="#454445"
               width={155}
               x={65}
               x1={220}
@@ -238,7 +238,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={30}
               stroke="none"
               textAnchor="middle"
@@ -263,7 +263,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
           className="recharts-cartesian-axis-line"
           fill="none"
           height={60}
-          stroke="#666"
+          stroke="#454445"
           width={60}
           x={5}
           x1={65}
@@ -282,7 +282,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={60}
-              stroke="#666"
+              stroke="#454445"
               width={60}
               x={5}
               x1={59}
@@ -293,7 +293,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={60}
               stroke="none"
               textAnchor="end"
@@ -316,7 +316,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={60}
-              stroke="#666"
+              stroke="#454445"
               width={60}
               x={5}
               x1={59}
@@ -327,7 +327,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={60}
               stroke="none"
               textAnchor="end"
@@ -350,7 +350,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={60}
-              stroke="#666"
+              stroke="#454445"
               width={60}
               x={5}
               x1={59}
@@ -361,7 +361,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={60}
               stroke="none"
               textAnchor="end"
@@ -384,7 +384,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={60}
-              stroke="#666"
+              stroke="#454445"
               width={60}
               x={5}
               x1={59}
@@ -395,7 +395,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={60}
               stroke="none"
               textAnchor="end"
@@ -418,7 +418,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
               className="recharts-cartesian-axis-tick-line"
               fill="none"
               height={60}
-              stroke="#666"
+              stroke="#454445"
               width={60}
               x={5}
               x1={59}
@@ -429,7 +429,7 @@ exports[`<ForecastTile /> renders correctly 1`] = `
             />
             <text
               className="recharts-text recharts-cartesian-axis-tick-value"
-              fill="#666"
+              fill="#454445"
               height={60}
               stroke="none"
               textAnchor="end"

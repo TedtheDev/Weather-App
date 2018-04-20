@@ -12,13 +12,13 @@ const AppDiv = styled.div`
     width:  100%;
     height: 100%;
     display: grid;
-    grid-template: 10% auto 10% / 10% auto 10%;
+    grid-template: 10% 5% auto 5% / 10% auto 10%;
     grid-template-areas: 
         "header header header"
+        " . . ."
         ". app ."
         "footer footer footer";
         background: #F5F2DC;
-    overflow-y: auto;
 `;
 
 class App extends Component {

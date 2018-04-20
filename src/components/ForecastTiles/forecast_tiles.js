@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import ForecastTile from './ForecastTile/forecast_tile';
 
 const ForecastTilesDiv = styled.div`
+    grid-area: temps;
     width: 100%;
     height: 100%;
     display: flex;

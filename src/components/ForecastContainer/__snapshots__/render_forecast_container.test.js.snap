@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ForecastContainer /> renders correctly 1`] = `
-<div
-  className="sc-fjdhpX fseIWy"
+<main
+  className="sc-fjdhpX gdLoEs"
 >
   <form
-    className="sc-bdVaJa aBlhB"
+    className="sc-bdVaJa gcfdVH"
     onSubmit={[Function]}
   >
     <input
-      className="sc-bwzfXH fRghIM"
+      className="sc-bwzfXH khaJxb"
       onChange={[Function]}
       placeholder="City Name"
       value=""
@@ -20,14 +20,14 @@ exports[`<ForecastContainer /> renders correctly 1`] = `
       
     </div>
     <button
-      className="sc-htpNat kmFOJE"
+      className="sc-htpNat dkRZgH"
       type="submit"
     >
       Get Forecast
     </button>
   </form>
   <div
-    className="sc-VigVT lovDyW"
+    className="sc-VigVT kixuLi"
   />
-</div>
+</main>
 `;

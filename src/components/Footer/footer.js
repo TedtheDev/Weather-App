@@ -5,6 +5,11 @@ const FooterDiv = styled.footer`
     grid-area: footer;
     box-shadow: 0 0 2px #000;
     background: #009494;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
 `;
 
 const Footer = props => {
