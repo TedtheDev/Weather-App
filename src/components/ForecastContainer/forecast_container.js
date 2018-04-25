@@ -15,6 +15,15 @@ const ForecastMain = styled.main`
     height: 100%;
 `;
 
+
+
+function checkCityNameForNumber(cityName) {
+    let cityNameArray = cityName.split('');
+    return cityNameArray.some((char) => {
+        return (char != " " && !isNaN(char));
+    });
+}
+
 class Forecast extends Component {
     
     constructor(props) {
@@ -25,9 +34,20 @@ class Forecast extends Component {
         this.getForecast = this.getForecast.bind(this);
         this.onChangeCityName = this.onChangeCityName.bind(this);
     }
-
+    
     onChangeCityName (event) {
-        this.setState({ cityName: event.target.value });
+        if(isNaN(event.target.value)) {
+            //Cannot use numbers in the city name
+            if(checkCityNameForNumber(event.target.value)) {
+                this.setState({ error: 'Cannot use numbers in the city name'});
+            } else {
+                this.setState({ error: ''})
+            }
+            
+            this.setState({ cityName: event.target.value });
+        } else {
+            this.setState({ error: 'Cannot use numbers'})
+        }
     }
 
     async getForecast(event) {

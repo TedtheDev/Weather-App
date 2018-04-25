@@ -16,6 +16,7 @@ exports[`<ForecastContainer /> renders correctly 1`] = `
     />
     <div
       className="sc-bxivhb cfEzOD"
+      id="search-error"
     >
       
     </div>

@@ -13,6 +13,7 @@ exports[`<SearchBarContainer /> renders correctly 1`] = `
   />
   <div
     className="sc-bxivhb cfEzOD"
+    id="search-error"
   />
   <button
     className="sc-htpNat dkRZgH"

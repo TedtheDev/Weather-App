@@ -56,7 +56,7 @@ const SearchBar = props => {
                 onChange={props.onChangeCityName} 
                 value={props.cityName}
             />
-            <Erorr>{props.error}</Erorr>
+            <Erorr id='search-error'>{props.error}</Erorr>
             <SearchButton type="submit">
                 Get Forecast
             </SearchButton>
