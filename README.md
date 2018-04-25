@@ -109,5 +109,5 @@ I chose not to use a CSS Framework because I thought I wouldn't need one with ju
 ### Fixes
 - I would like to fix some layout issues that I am having with the Header and Footer being fixed along with the ForecastTiles when on a smaller screen. I think I have issues with using percentages with Grid so I would need more time with debugging that
 - I would like to fix the ForecastTile layout. I believe I could make it more appealing and a better layout
-- Try and cancel the API Key to OpenWeather. I did try to work on this and almost had it, but had issues with passing the API key when building the Docker image and running it. It would pass through, but somehow node inside the Docker container wouldn't set the process.env variable, but it existed in the environment.
-- I would like to add more tests. I recently started exploring Enzyme, so I thought this would be another opportunity to explore Enzyme, but I think I could add more to test components behavior rather than what they render snapshots
+- Try and conceal the API Key to OpenWeather. I did try to work on this and almost had it, but had issues with passing the API key when building the Docker image and running it. It would pass through, but somehow node inside the Docker container wouldn't set the process.env variable, but it existed in the environment.
+- I would like to add more tests. I recently started exploring Enzyme, so I thought this would be another opportunity to explore Enzyme, but I think I could add more to test components behavior rather than what they render with snapshots
